@@ -1,0 +1,38 @@
+body {
+    background-image: url(images/multicolored-geometric-pattern-triangle-wallpaper-1920x1200_6.jpg);
+    position: absolute;
+    top: 30%;
+	left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+    border: 0px;
+}
+
+.card-body {
+    background-color: rgb(204, 215, 228);
+}
+
+.card-header {
+    background-color: rgb(195, 172, 214);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-style: oblique;
+    border: 0px;
+}
+
+.card-footer {
+    background-color: rgb(195, 172, 214);
+    border: 0px;
+}
+
+#generation.btn.btn-success {
+    margin-right: 6px;
+}
+
+#clear.btn.btn-danger {
+    margin-left: 6px;
+}
